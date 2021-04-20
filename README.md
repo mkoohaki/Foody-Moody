@@ -1,6 +1,6 @@
 # FOODY MOODY
 
-https://github.com/mkoohaki/Foody-Moody/blob/main/foodyMoody.jfif
+![FoodyMoody](https://user-images.githubusercontent.com/76530864/115433037-1194c300-a1d5-11eb-8daf-c8c0cbbb57dc.jpg)
 
 Author: Meisam Koohaki/Edwin Christie/Michael Valadao-Martins
 Winter, 2021
