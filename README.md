@@ -1,5 +1,7 @@
 # FOODY MOODY
 
+https://github.com/mkoohaki/Foody-Moody/blob/main/foodyMoody.jfif
+
 Author: Meisam Koohaki/Edwin Christie/Michael Valadao-Martins
 Winter, 2021
 Foody Moody is an Android application which is created in Android Studio with using Kotlin
