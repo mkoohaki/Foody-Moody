@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/comment"
+    android:layout_marginTop="@dimen/d_20"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/TextView_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/f_14"
+        android:paddingTop="@dimen/d_10"
+        android:paddingBottom="@dimen/d_5"
+        android:paddingStart="@dimen/d_10"
+        android:paddingEnd="@dimen/d_40" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_comment_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TextView_comment"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/f_14"
+            android:paddingTop="@dimen/d_10"
+            android:paddingBottom="@dimen/d_20"
+            android:paddingStart="@dimen/d_10"
+            android:paddingEnd="@dimen/d_10"
+            android:textAlignment="viewStart"
+            android:layout_gravity = "start"
+            android:layout_marginStart="@dimen/d_10"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/ImageView_like"
+            android:layout_width="@dimen/d_40"
+            android:layout_height="@dimen/d_40"
+            android:layout_marginStart="@dimen/d_20"
+            android:background="@drawable/heart" />
+    </LinearLayout>
+
+</android.widget.LinearLayout>

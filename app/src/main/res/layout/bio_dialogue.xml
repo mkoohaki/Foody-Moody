@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bio"
+    android:gravity="center"
+    android:padding="@dimen/d_15">
+
+    <EditText
+        android:id="@+id/EditText_bio_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/f_20"
+        android:textAlignment="viewStart"
+        android:singleLine="false"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/Button_bio_edit"
+        android:layout_width="@dimen/d_150"
+        android:layout_height="@dimen/d_30"
+        android:background="@drawable/button_edit"
+        android:textColor="@color/dark_green"
+        android:layout_marginTop="@dimen/d_20"
+        android:text="@string/ok"
+        android:textSize="@dimen/f_20"/>
+
+</LinearLayout>
